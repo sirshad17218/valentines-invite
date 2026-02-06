@@ -247,13 +247,6 @@ export default function Index() {
           <Pressable style={styles.primaryBtn} onPress={() => startLevel(0)}>
             <Text style={styles.primaryBtnText}>Start 💖</Text>
           </Pressable>
-
-          <Text style={styles.footnote}>
-            Tip: If you want haptics, run:{" "}
-            <Text style={{ fontWeight: "700" }}>
-              npx expo install expo-haptics
-            </Text>
-          </Text>
         </View>
       </SafeAreaView>
     );
